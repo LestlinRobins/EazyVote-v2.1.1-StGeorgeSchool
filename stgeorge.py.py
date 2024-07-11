@@ -344,7 +344,7 @@ def extclick(n):
     a=int(testLabel1.cget("text"))
     Candidate1Name = Text(root, height = 5, width = 52)    # Creating a text object with candidate name
     Candidate1Label = Label(root, text =candlist[a-1],font=font1,fg="White",bg="#121e2a", highlightthickness=0)    # Displaying candidate name 
-    Candidate1Label.place(x=160, y=360)    # Positioning the label with candidate name
+    Candidate1Label.place(x=150, y=360)    # Positioning the label with candidate name
     Candidate1Btn= tkinter.Button(root, image=Candidate1img,command=lambda m="Button 1":clicked(m), borderwidth=0, highlightthickness=0,activebackground="black")
     Candidate1Btn.place(x=110,y=150)    
 
@@ -354,7 +354,7 @@ def extclick(n):
     b=int(testLabel2.cget("text"))
     Candidate2Name = Text(root, height = 5, width = 52)    # Creating a text object with candidate name
     Candidate2Label = Label(root, text =candlist[b-1],font=font1,fg="White",bg="#121e2a", highlightthickness=0)    # Displaying candidate name
-    Candidate2Label.place(x=400, y=360)    # Positioning the label with candidate name
+    Candidate2Label.place(x=410, y=360)    # Positioning the label with candidate name
     Candidate2Btn= tkinter.Button(root, image=Candidate2img,command=lambda m="Button 2":clicked(m), borderwidth=0, highlightthickness=0,activebackground="black")
     Candidate2Btn.place(x=380,y=150)  
 
@@ -374,7 +374,7 @@ def extclick(n):
     d=int(testLabel4.cget("text"))
     Candidate4Name = Text(root, height = 5, width = 52)    # Creating a text object with candidate name
     Candidate4Label = Label(root, text =candlist[d-1],font=font1,fg="White",bg="#121e2a", highlightthickness=0)    # Displaying candidate name
-    Candidate4Label.place(x=1110, y=360)    # Positioning the label with candidate name
+    Candidate4Label.place(x=1090, y=360)    # Positioning the label with candidate name
     Candidate4Btn= tkinter.Button(root, image=Candidate4img,command=lambda n="Button 4":clicked1(n), borderwidth=0, highlightthickness=0,activebackground="black")
     Candidate4Btn.place(x=1060,y=150)
 
@@ -384,7 +384,7 @@ def extclick(n):
     e=int(testLabel5.cget("text"))
     Candidate5Name = Text(root, height = 5, width = 52)    # Creating a text object with candidate name.
     Candidate5Label = Label(root, text =candlist[e-1],font=font1,fg="White",bg="#121e2a", highlightthickness=0)    # Displaying candidate name. 
-    Candidate5Label.place(x=280, y=640)    # Positioning the label with candidate name.
+    Candidate5Label.place(x=285, y=640)    # Positioning the label with candidate name.
     Candidate5Btn= tkinter.Button(root, image=Candidate5img,command=lambda m="Button 5":clicked(m), borderwidth=0, highlightthickness=0,activebackground="black")
     Candidate5Btn.place(x=245,y=430)    
 
@@ -426,7 +426,7 @@ testLabel1.place(x=160,y=300)
 a=int(testLabel1.cget("text"))
 Candidate1Name = Text(root, height = 5, width = 52)    # Creating a text object with candidate name
 Candidate1Label = Label(root, text =candlist[a-1],font=font1,fg="White",bg="#121e2a", highlightthickness=0)    # Displaying candidate name 
-Candidate1Label.place(x=160, y=360)    # Positioning the label with candidate name
+Candidate1Label.place(x=150, y=360)    # Positioning the label with candidate name
 Candidate1Btn= tkinter.Button(root, image=Candidate1img,command=lambda m="Button 1":clicked(m), borderwidth=0, highlightthickness=0,activebackground="black")
 Candidate1Btn.place(x=110,y=150)    
 
@@ -436,7 +436,7 @@ testLabel2.place(x=420,y=300)
 b=int(testLabel2.cget("text"))
 Candidate2Name = Text(root, height = 5, width = 52)    # Creating a text object with candidate name
 Candidate2Label = Label(root, text =candlist[b-1],font=font1,fg="White",bg="#121e2a", highlightthickness=0)    # Displaying candidate name
-Candidate2Label.place(x=400, y=360)    # Positioning the label with candidate name
+Candidate2Label.place(x=410, y=360)    # Positioning the label with candidate name
 Candidate2Btn= tkinter.Button(root, image=Candidate2img,command=lambda m="Button 2":clicked(m), borderwidth=0, highlightthickness=0,activebackground="black")
 Candidate2Btn.place(x=380,y=150)  
 
@@ -446,7 +446,7 @@ testLabel3.place(x=820,y=300)
 c=int(testLabel3.cget("text"))
 Candidate3Name = Text(root, height = 5, width = 52)    # Creating a text object with candidate name
 Candidate3Label = Label(root, text =candlist[c-1],font=font1,fg="White",bg="#121e2a", highlightthickness=0)    # Displaying candidate name
-Candidate3Label.place(x=820, y=360)    # Positioning the label with candidate name
+Candidate3Label.place(x=825, y=360)    # Positioning the label with candidate name
 Candidate3Btn= tkinter.Button(root, image=Candidate3img,command=lambda n="Button 3":clicked1(n), borderwidth=0, highlightthickness=0,activebackground="black")
 Candidate3Btn.place(x=790,y=150) 
 
@@ -456,7 +456,7 @@ testLabel4.place(x=1130,y=300)
 d=int(testLabel4.cget("text"))
 Candidate4Name = Text(root, height = 5, width = 52)    # Creating a text object with candidate name
 Candidate4Label = Label(root, text =candlist[d-1],font=font1,fg="White",bg="#121e2a", highlightthickness=0)    # Displaying candidate name
-Candidate4Label.place(x=1110, y=360)    # Positioning the label with candidate name
+Candidate4Label.place(x=1090, y=360)    # Positioning the label with candidate name
 Candidate4Btn= tkinter.Button(root, image=Candidate4img,command=lambda n="Button 4":clicked1(n), borderwidth=0, highlightthickness=0,activebackground="black")
 Candidate4Btn.place(x=1060,y=150)
 
@@ -466,7 +466,7 @@ testLabel5.place(x=420,y=530)
 e=int(testLabel5.cget("text"))
 Candidate5Name = Text(root, height = 5, width = 52)    # Creating a text object with candidate name.
 Candidate5Label = Label(root, text =candlist[e-1],font=font1,fg="White",bg="#121e2a", highlightthickness=0)    # Displaying candidate name. 
-Candidate5Label.place(x=280, y=640)    # Positioning the label with candidate name.
+Candidate5Label.place(x=285, y=640)    # Positioning the label with candidate name.
 Candidate5Btn= tkinter.Button(root, image=Candidate5img,command=lambda m="Button 5":clicked(m), borderwidth=0, highlightthickness=0,activebackground="black")
 Candidate5Btn.place(x=245,y=430)    
 
